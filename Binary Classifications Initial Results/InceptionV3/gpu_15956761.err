@@ -1,0 +1,24 @@
+Loaded dependency [python3/3.9.14]: gcc/10.3.0-binutils-2.36.1
+Loaded module: python3/3.9.14
+
+Loading python3/3.9.14
+  Loading requirement: gcc/10.3.0-binutils-2.36.1
+Loaded module: cuda/11.6
+Loaded module: cudnn/v8.3.2.44-prod-cuda-11.X
+Loaded module: tensorrt/7.2.3.4-cuda-11.X
+Loaded dependency [numpy/1.23.3-python-3.9.14-openblas-0.3.21]: openblas/0.3.21
+Loaded module: numpy/1.23.3-python-3.9.14-openblas-0.3.21
+
+Loading numpy/1.23.3-python-3.9.14-openblas-0.3.21
+  Loading requirement: openblas/0.3.21
+Loaded module: matplotlib/3.6.0-numpy-1.23.3-python-3.9.14
+2023-03-22 16:16:05.846456: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-03-22 16:27:19.910501: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-03-22 16:27:29.101044: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 14611 MB memory:  -> device: 0, name: Tesla V100-PCIE-16GB, pci bus id: 0000:37:00.0, compute capability: 7.0
+2023-03-22 16:28:00.575497: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:428] Loaded cuDNN version 8302
+2023-03-22 16:28:04.444088: I tensorflow/compiler/xla/service/service.cc:173] XLA service 0x7fb24addec10 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2023-03-22 16:28:04.444428: I tensorflow/compiler/xla/service/service.cc:181]   StreamExecutor device (0): Tesla V100-PCIE-16GB, Compute Capability 7.0
+2023-03-22 16:28:04.681212: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2023-03-22 16:28:05.906523: I tensorflow/compiler/jit/xla_compilation_cache.cc:477] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
